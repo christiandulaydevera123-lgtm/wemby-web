@@ -1,53 +1,246 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Facebook Style Portfolio</title>
-    <style>
-        /* Simple Facebook Style CSS */
-        body { font-family: Helvetica, Arial, sans-serif; background-color: #f0f2f5; margin: 0; padding: 0; }
-        
-        /* Top Blue Bar */
-        .header { background-color: #1877f2; height: 45px; display: flex; align-items: center; padding: 0 20px; color: white; font-weight: bold; font-size: 20px; }
-        
-        /* Main Content Box */
-        .container { max-width: 600px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.2); min-height: 400px; }
-        
-        h2 { color: #050505; border-bottom: 1px solid #eee; padding-bottom: 10px; }
-        p { color: #1c1e21; line-height: 1.5; }
-        
-        /* Navigation Buttons at Bottom */
-        .bottom-nav { position: fixed; bottom: 0; width: 100%; background: white; border-top: 1px solid #ddd; display: flex; justify-content: center; padding: 10px 0; }
-        .nav-btn { margin: 0 15px; text-decoration: none; color: #65676b; font-weight: bold; font-size: 14px; padding: 10px 20px; border-radius: 5px; }
-        .nav-btn:hover { background-color: #e4e6eb; color: #1877f2; }
-        .nav-btn.active { color: #1877f2; border-bottom: 3px solid #1877f2; }
-    </style>
+    <title>De Vera Portfolio - Home</title>
 </head>
-<body>
+<body bgcolor="#f0f2f5" text="#1c1e21">
 
-    <!-- Top Header -->
-    <div class="header">Facebook Portfolio</div>
+    <!-- Top Blue Header Bar -->
+    <table width="100%" bgcolor="#1877f2" cellpadding="10" cellspacing="0" border="0">
+        <tr>
+            <td>
+                <font color="white" size="5"><b>&#9670; De Vera Portfolio</b></font>
+            </td>
+            <td align="right">
+                <font size="3">
+                    <a href="index.html"><font color="white">Home</font></a>
+                    &nbsp;&nbsp;
+                    <a href="about.html"><font color="white">About</font></a>
+                    &nbsp;&nbsp;
+                    <a href="contacts.html"><font color="white">Contacts</font></a>
+                    &nbsp;&nbsp;
+                    <a href="address.html"><font color="white">Address</font></a>
+                </font>
+            </td>
+        </tr>
+    </table>
 
-    <!-- Main Content -->
-    <div class="container">
-        <h2>Home / News Feed</h2>
-        <p><strong>Welcome to my profile!</strong></p>
-        <p>This is the index page. It looks like the Facebook news feed. I am a web developer learning how to create simple HTML pages.</p>
-        
-        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
-        
-        <!-- Fake Post -->
-        <div style="background: #f0f2f5; padding: 10px; border-radius: 5px;">
-            <p><strong>Me:</strong> Just updated my portfolio website! Check it out.</p>
-        </div>
-    </div>
+    <br>
+
+    <!-- Main Layout -->
+    <center>
+        <table width="900" cellpadding="0" cellspacing="10" border="0">
+            <tr valign="top">
+
+                <!-- Left Sidebar -->
+                <td width="280">
+
+                    <!-- Profile Card -->
+                    <table width="100%" bgcolor="white" cellpadding="15" cellspacing="0" border="1" bordercolor="#dddfe2">
+                        <tr>
+                            <td align="center">
+                                <table width="100" height="100" bgcolor="#1877f2" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="center" valign="middle">
+                                            <font color="white" size="6"><b>DV</b></font>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <font size="4"><b>De Vera</b></font><br>
+                                <font size="2" color="#65676b">Web Developer Student</font><br>
+                                <font size="2" color="#65676b">&#128205; Caloocan, Philippines</font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr color="#dddfe2">
+                                <font size="2">
+                                    <b>&#128100; Friends:</b> 512<br><br>
+                                    <b>&#128247; Photos:</b> 34<br><br>
+                                    <b>&#128218; Posts:</b> 128<br><br>
+                                    <b>&#128197; Joined:</b> January 2024
+                                </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <table width="100%" bgcolor="#1877f2" cellpadding="8" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="center">
+                                            <a href="about.html"><font color="white" size="2"><b>View Profile</b></font></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <!-- Shortcuts -->
+                    <table width="100%" bgcolor="white" cellpadding="15" cellspacing="0" border="1" bordercolor="#dddfe2">
+                        <tr>
+                            <td>
+                                <font size="3"><b>Shortcuts</b></font><br><br>
+                                <font size="2">
+                                    &#128196; <a href="about.html">About Me</a><br><br>
+                                    &#128222; <a href="contacts.html">My Contacts</a><br><br>
+                                    &#128205; <a href="address.html">My Address</a><br><br>
+                                    &#127968; <a href="index.html">News Feed</a>
+                                </font>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+
+                <!-- Main Feed -->
+                <td width="620">
+
+                    <!-- Create Post Box -->
+                    <table width="100%" bgcolor="white" cellpadding="15" cellspacing="0" border="1" bordercolor="#dddfe2">
+                        <tr>
+                            <td>
+                                <font size="3"><b>&#9998; Create Post</b></font>
+                                <hr color="#dddfe2">
+                                <table width="100%" border="1" bordercolor="#dddfe2" cellpadding="10" cellspacing="0" bgcolor="#f0f2f5">
+                                    <tr>
+                                        <td><font color="#65676b" size="2">What's on your mind, De Vera?</font></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <!-- Post 1 -->
+                    <table width="100%" bgcolor="white" cellpadding="15" cellspacing="0" border="1" bordercolor="#dddfe2">
+                        <tr>
+                            <td>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr valign="top">
+                                        <td width="45">
+                                            <table width="40" height="40" bgcolor="#1877f2" cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td align="center" valign="middle"><font color="white" size="2"><b>DV</b></font></td></tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <font size="2"><b>De Vera</b></font><br>
+                                            <font size="1" color="#65676b">2 hours ago &#127758;</font>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <font size="2">&#128512; Just updated my portfolio website! Check it out. So excited to share my progress in web development with everyone!</font>
+                                <br><br>
+                                <hr color="#dddfe2">
+                                <table width="100%" cellpadding="5" cellspacing="0" border="0">
+                                    <tr align="center">
+                                        <td><font size="2"><a href="#">&#128077; Like</a></font></td>
+                                        <td><font size="2"><a href="#">&#128172; Comment</a></font></td>
+                                        <td><font size="2"><a href="#">&#8617; Share</a></font></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <!-- Post 2 -->
+                    <table width="100%" bgcolor="white" cellpadding="15" cellspacing="0" border="1" bordercolor="#dddfe2">
+                        <tr>
+                            <td>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr valign="top">
+                                        <td width="45">
+                                            <table width="40" height="40" bgcolor="#1877f2" cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td align="center" valign="middle"><font color="white" size="2"><b>DV</b></font></td></tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <font size="2"><b>De Vera</b></font><br>
+                                            <font size="1" color="#65676b">1 day ago &#127758;</font>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <font size="2">&#128170; Learning HTML every day. Progress is progress! Every small step counts toward becoming a great web developer.</font>
+                                <br><br>
+                                <hr color="#dddfe2">
+                                <table width="100%" cellpadding="5" cellspacing="0" border="0">
+                                    <tr align="center">
+                                        <td><font size="2"><a href="#">&#128077; Like</a></font></td>
+                                        <td><font size="2"><a href="#">&#128172; Comment</a></font></td>
+                                        <td><font size="2"><a href="#">&#8617; Share</a></font></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <!-- Post 3 -->
+                    <table width="100%" bgcolor="white" cellpadding="15" cellspacing="0" border="1" bordercolor="#dddfe2">
+                        <tr>
+                            <td>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr valign="top">
+                                        <td width="45">
+                                            <table width="40" height="40" bgcolor="#1877f2" cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td align="center" valign="middle"><font color="white" size="2"><b>DV</b></font></td></tr>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <font size="2"><b>De Vera</b></font><br>
+                                            <font size="1" color="#65676b">3 days ago &#127758;</font>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <font size="2">&#127775; Excited to share my work with the world. Stay tuned for more updates on my portfolio and web development journey!</font>
+                                <br><br>
+                                <hr color="#dddfe2">
+                                <table width="100%" cellpadding="5" cellspacing="0" border="0">
+                                    <tr align="center">
+                                        <td><font size="2"><a href="#">&#128077; Like</a></font></td>
+                                        <td><font size="2"><a href="#">&#128172; Comment</a></font></td>
+                                        <td><font size="2"><a href="#">&#8617; Share</a></font></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <br><br>
 
     <!-- Bottom Navigation -->
-    <div class="bottom-nav">
-        <a href="index.html" class="nav-btn active">Home</a>
-        <a href="address.html" class="nav-btn">Address</a>
-        <a href="contacts.html" class="nav-btn">Contacts</a>
-        <a href="about.html" class="nav-btn">About</a>
-    </div>
+    <table width="100%" bgcolor="white" cellpadding="15" cellspacing="0" border="0">
+        <tr>
+            <td align="center">
+                <hr color="#dddfe2" width="600">
+                <font size="3">
+                    <a href="index.html"><b>&#127968; Home</b></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="address.html">&#128205; Address</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="contacts.html">&#128222; Contacts</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="about.html">&#128100; About</a>
+                </font>
+                <br><br>
+                <font size="1" color="#65676b">De Vera Portfolio &copy; 2024 &nbsp;|&nbsp; Caloocan, Philippines</font>
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
